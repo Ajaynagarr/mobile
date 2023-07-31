@@ -1,0 +1,1036 @@
+button {
+  width: 150px;
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 50px;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  transition-duration: 0.3s;
+  color: white;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+.navbar-color {
+  background-color: orange;
+}
+
+header {
+  width: 100%;
+  height: 80vh;
+  min-height: 800px;
+  background-color: #2ed06e;
+}
+header nav .inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header nav .inner a {
+  color: white;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+}
+header nav .inner .logo img {
+  width: 50%;
+}
+header nav .inner ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header nav .inner ul li {
+  list-style: none;
+  margin-right: 2rem;
+  padding-top: 0.6rem;
+  font-size: 0.9rem;
+}
+header nav .inner .menu {
+  color: white;
+  margin-right: 1rem;
+  padding-top: 0.4rem;
+  padding-right: 1rem;
+  display: none;
+}
+header nav .inner .btn {
+  width: 150px;
+  padding: 0.8rem 1.4rem;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  background-color: white;
+  color: black;
+}
+header nav .inner .btn:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.3s;
+}
+header .headings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header .headings .left {
+  width: 40%;
+  color: white;
+  margin-top: 8rem;
+}
+header .headings .left h3 {
+  font-size: 1rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+}
+header .headings .left h1 {
+  padding: 1.2rem 0;
+  font-size: 2.4rem;
+  font-family: "League Spartan", sans-serif;
+  line-height: 2.4rem;
+  font-weight: 700;
+}
+header .headings .left p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+}
+header .headings .right {
+  width: 40%;
+}
+header .headings .right img {
+  width: 80%;
+}
+
+.second {
+  background-color: #eff0f3;
+  padding-top: 4rem;
+}
+.second .inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.second .inner .left {
+  width: 50%;
+}
+.second .inner .left img {
+  width: 100%;
+}
+.second .inner .right {
+  width: 45%;
+  margin-top: 6rem;
+}
+.second .inner .right h2 {
+  color: #2ed06e;
+  font-size: 1.1rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+}
+.second .inner .right h1 {
+  font-size: 2rem;
+  font-family: "League Spartan", sans-serif;
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+.second .inner .right .threesamebox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.second .inner .right .threesamebox .left {
+  width: 70px;
+  height: 70px;
+  background-color: #2ed06e;
+  border-radius: 100%;
+  text-align: center;
+}
+.second .inner .right .threesamebox .left span {
+  margin-top: 1.3rem;
+  color: white;
+}
+.second .inner .right .threesamebox .rightright {
+  width: 80%;
+}
+.second .inner .right .threesamebox .rightright h3 {
+  font-family: "League Spartan", sans-serif;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+.second .inner .right .threesamebox .rightright p {
+  color: gray;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.third {
+  text-align: center;
+  margin-top: 4rem;
+}
+.third h3 {
+  color: #2ed06e;
+  font-size: 0.9rem;
+  font-family: "DM Sans", sans-serif;
+}
+.third h1 {
+  font-size: 2rem;
+  margin: 1.4rem 0;
+  font-family: "League Spartan", sans-serif;
+}
+.third p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  color: gray;
+}
+.third .sixsamebox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+.third .sixsamebox .six:hover {
+  transform: scale(1.09);
+  transition-duration: 0.3s;
+  border-top: 3px solid #2ed06e;
+  border-bottom: 3px solid #2ed06e;
+}
+.third .sixsamebox .six {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  width: 32%;
+  background-color: rgb(251, 248, 248);
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  padding: 2rem 2rem;
+  transition: all 0.4s linear;
+}
+.third .sixsamebox .six span {
+  width: 70px;
+  height: 70px;
+  background-color: #2ed06e;
+  padding-top: 1.4rem;
+  color: white;
+  border-radius: 10px;
+}
+.third .sixsamebox .six h3 {
+  margin: 1rem 0;
+  color: black;
+  font-size: 1rem;
+}
+.third .sixsamebox .six p {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+.fourth {
+  background-color: #f4f7fa;
+  padding: 3rem 0;
+}
+.fourth .inner {
+  text-align: center;
+}
+.fourth .inner h4 {
+  color: #2ed06e;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+}
+.fourth .inner h1 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-family: "League Spartan", sans-serif;
+}
+.fourth .inner p {
+  color: gray;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+}
+.fourth .inner .pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+.fourth .inner .pricing .similarbox {
+  width: 32%;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 1.4rem 1.4rem;
+  position: relative;
+  border: 1px solid rgba(204, 202, 202, 0.514);
+}
+.fourth .inner .pricing .similarbox:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.103);
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+.fourth .inner .pricing .similarbox h3 {
+  font-family: "League Spartan", sans-serif;
+  color: #2ed06e;
+  font-weight: 500;
+  margin: 0.7rem 0;
+}
+.fourth .inner .pricing .similarbox h5 {
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+  padding-bottom: 2rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+.fourth .inner .pricing .similarbox h4 {
+  font-family: "DM Sans", sans-serif;
+  color: #2ed06e;
+  font-size: 0.8rem;
+  position: absolute;
+  top: -1.5rem;
+  right: 0.7rem;
+}
+.fourth .inner .pricing .similarbox .num {
+  font-size: 2.8rem;
+  font-family: "League Spartan", sans-serif;
+}
+.fourth .inner .pricing .similarbox .sm {
+  font-size: 1rem;
+  color: gray;
+}
+.fourth .inner .pricing .similarbox sub {
+  color: gray;
+}
+.fourth .inner .pricing .similarbox ul {
+  margin: 1rem 0;
+}
+.fourth .inner .pricing .similarbox ul span {
+  margin-right: 0.4rem;
+}
+.fourth .inner .pricing .similarbox ul li {
+  list-style: none;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  font-family: "DM Sans", sans-serif;
+}
+.fourth .inner .pricing .similarbox ul .ri {
+  color: #2ed06e;
+}
+.fourth .inner .pricing .similarbox ul .wr {
+  color: gray;
+}
+.fourth .inner .pricing .similarbox .butt {
+  width: 190px;
+  background-color: #2ed06e;
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+.fourth .inner .pricing .similarbox .butt:hover {
+  color: white;
+  background-color: black;
+  transition-duration: 0.3s;
+}
+.fourth .inner .pricing .similarbox .mid {
+  background-color: black;
+}
+.fourth .inner .pricing .similarbox .mid:hover {
+  background-color: #2ed06e;
+  transition-duration: 0.3s;
+}
+.fourth .inner .pricing .similarbox .arow {
+  margin-left: 0.4rem;
+}
+
+.fifth {
+  background-color: #081828;
+  padding: 2rem 0;
+  height: 400px;
+}
+.fifth .inner {
+  position: relative;
+}
+.fifth .inner .one {
+  border: 1px solid rgba(238, 238, 238, 0.2509803922);
+  padding: 2rem 0rem;
+  border-radius: 30px;
+  position: absolute;
+  top: 3rem;
+  width: 100%;
+  left: 0;
+  background: rgba(255, 255, 255, 0.1411764706);
+}
+.fifth .inner .one .half {
+  width: 94%;
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.09);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fifth .inner .one .half .left {
+  width: 20%;
+  position: relative;
+}
+.fifth .inner .one .half .left img {
+  width: 15%;
+  position: absolute;
+  top: -64px;
+}
+.fifth .inner .one .half .bottom {
+  width: 50%;
+  text-align: center;
+}
+.fifth .inner .one .half .bottom h5 {
+  font-family: "DM Sans", sans-serif;
+  color: #2ed06e;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+.fifth .inner .one .half .bottom h1 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-family: "League Spartan", sans-serif;
+}
+.fifth .inner .one .half .bottom p {
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+}
+.fifth .inner .one .half .right {
+  width: 20%;
+  position: relative;
+  overflow: hidden;
+}
+.fifth .inner .one .half .right img {
+  width: 60%;
+  position: absolute;
+  right: -3rem;
+  bottom: 0rem;
+}
+
+.sixth {
+  margin-top: 16rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.sixth h3 {
+  font-family: "League Spartan", sans-serif;
+  color: #2ed06e;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.sixth h1 {
+  font-family: "League Spartan", sans-serif;
+  margin: 1.4rem 0;
+  font-size: 2.2rem;
+}
+.sixth p {
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+}
+.sixth .fourmain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sixth .fourmain .fourcircle {
+  width: 18%;
+}
+.sixth .fourmain .fourcircle:hover li {
+  transform: translateY(-8px);
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  opacity: 1;
+  cursor: pointer;
+}
+.sixth .fourmain .fourcircle img {
+  width: 100%;
+  border-radius: 100%;
+  border: 1px solid rgba(211, 209, 209, 0.584);
+  padding: 0.4rem;
+  margin-top: 5rem;
+}
+.sixth .fourmain .fourcircle h5 {
+  font-family: "League Spartan", sans-serif;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.sixth .fourmain .fourcircle h6 {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 0.6rem;
+  color: gray;
+  font-weight: 500;
+}
+.sixth .fourmain .fourcircle ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: unset;
+  width: 65%;
+  margin: 0 auto;
+}
+.sixth .fourmain .fourcircle ul li {
+  list-style: none;
+  margin-top: 1.8rem;
+  width: 25%;
+  transform: translateY(-20px);
+  opacity: 0;
+}
+.sixth .fourmain .fourcircle ul a {
+  color: #081828;
+}
+.sixth .fourmain .fourcircle ul span {
+  font-size: 0.8rem;
+}
+
+.seventh {
+  background-color: #f4f7fa;
+  padding: 6rem 0;
+}
+.seventh .inner {
+  text-align: center;
+}
+.seventh .inner h3 {
+  font-family: "League Spartan", sans-serif;
+  color: #2ed06e;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.seventh .inner h1 {
+  font-family: "League Spartan", sans-serif;
+  margin: 1.4rem 0;
+  font-size: 2.2rem;
+}
+.seventh .inner p {
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+}
+.seventh .inner .sixsamesixbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.seventh .inner .sixsamesixbox .threethreebox {
+  background-color: rgba(255, 255, 255, 0.595);
+  padding: 1.3rem 1.6rem;
+  border-radius: 10px;
+  position: relative;
+  margin: 0 0.1rem;
+}
+.seventh .inner .sixsamesixbox .threethreebox:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.103);
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+.seventh .inner .sixsamesixbox .threethreebox .green {
+  width: 10%;
+  padding: 1rem;
+  background-color: #2ed06e;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 100%;
+  border-top-right-radius: 10px;
+}
+.seventh .inner .sixsamesixbox .threethreebox p {
+  font-size: 0.9rem;
+  text-align: left;
+  margin-bottom: 1.3rem;
+  line-height: 1.4rem;
+}
+.seventh .inner .sixsamesixbox .threethreebox .leftright {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.seventh .inner .sixsamesixbox .threethreebox .leftright .left {
+  width: 20%;
+}
+.seventh .inner .sixsamesixbox .threethreebox .leftright .left img {
+  width: 80%;
+}
+.seventh .inner .sixsamesixbox .threethreebox .leftright .right {
+  width: 80%;
+  text-align: left;
+  padding-left: 0.4rem;
+  padding-top: 0.4rem;
+  font-family: "League Spartan", sans-serif;
+}
+.seventh .inner .sixsamesixbox .threethreebox .leftright .right h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.seventh .inner .sixsamesixbox .threethreebox .leftright .right h6 {
+  color: gray;
+  padding-top: 0.3rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.owl-carousel button.owl-dot {
+  width: 3%;
+  margin-right: 0.4rem;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: #2ed06e;
+  width: 110%;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background-color: black;
+  width: 75%;
+}
+
+.eighth {
+  text-align: center;
+  padding: 6rem 0;
+}
+.eighth h3 {
+  font-family: "League Spartan", sans-serif;
+  color: #2ed06e;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.eighth h1 {
+  font-family: "League Spartan", sans-serif;
+  margin: 1.4rem 0;
+  font-size: 2.2rem;
+}
+.eighth p {
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+}
+.eighth .thirdmain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.eighth .thirdmain .third {
+  width: 32%;
+  background-color: #ffffff;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.09);
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.eighth .thirdmain .third:hover .imagezoom img {
+  transform: scale(1.09);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in;
+  cursor: pointer;
+}
+.eighth .thirdmain .third .imagezoom {
+  width: 100%;
+}
+.eighth .thirdmain .third .imagezoom img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.eighth .thirdmain .third ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  justify-content: unset;
+  margin: 1rem 0;
+  padding: 0 0.8rem;
+}
+.eighth .thirdmain .third ul li {
+  margin-right: 0.6rem;
+  color: gray;
+}
+.eighth .thirdmain .third ul span {
+  color: #2ed06e;
+  padding: 0.4rem;
+}
+.eighth .thirdmain .third h3 {
+  padding: 0 1.2rem;
+  color: black;
+  margin-top: 1rem;
+}
+.eighth .thirdmain .third p {
+  padding: 0 1.2rem;
+  color: gray;
+  margin: 1.2rem 0rem;
+  line-height: 1.3rem;
+}
+.eighth .thirdmain .third h4 {
+  padding: 0 1.2rem;
+  text-decoration: underline;
+  padding-bottom: 1.4rem;
+  font-weight: 200;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+}
+
+.nine {
+  background-color: #eff0f3;
+  padding: 3rem 0;
+}
+.nine .inner {
+  text-align: center;
+}
+.nine .inner h3 {
+  font-family: "League Spartan", sans-serif;
+  color: #2ed06e;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.nine .inner h1 {
+  font-family: "League Spartan", sans-serif;
+  margin: 1.4rem 0;
+  font-size: 2.2rem;
+}
+.nine .inner p {
+  font-family: "DM Sans", sans-serif;
+  color: gray;
+}
+.nine .inner .six {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.nine .inner .six .long {
+  width: 550px;
+  padding: 0.4rem 0.6rem;
+  background-color: white;
+  border-radius: 0;
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+.nine .inner .six .long:hover {
+  color: black;
+}
+.nine .inner .six .plus {
+  margin-left: 8rem;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+.ten {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+.ten .left {
+  width: 38%;
+}
+.ten .left h1 {
+  font-size: 1.9rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  line-height: 1.9rem;
+}
+.ten .right {
+  width: 50%;
+  text-align: right;
+}
+.ten .right button {
+  margin-top: 0.6rem;
+  background-color: #2ed06e;
+  color: white;
+}
+.ten .right button:hover {
+  background-color: black;
+  transition-duration: 0.3s;
+}
+.ten .right .butt {
+  background-color: black;
+}
+.ten .right .butt:hover {
+  background-color: #2ed06e;
+  transition-duration: 0.3s;
+}
+
+.eleven {
+  background-color: #081828;
+  padding: 2rem 0;
+  color: white;
+}
+.eleven .inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.eleven .inner .one {
+  width: 25%;
+}
+.eleven .inner .one img {
+  width: 50%;
+}
+.eleven .inner .one p {
+  font-family: "DM Sans", sans-serif;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+.eleven .inner .one h5 {
+  font-family: "League Spartan", sans-serif;
+}
+.eleven .inner .one h4 {
+  font-family: "League Spartan", sans-serif;
+  margin-bottom: 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+.eleven .inner .one input {
+  padding: 0.8rem;
+  background-color: #263442;
+  border: none;
+  font-size: 0.8rem;
+  width: 80%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 0.6rem;
+}
+.eleven .inner .one button {
+  all: unset;
+  width: 30px;
+  padding: 0.5rem;
+  background-color: #495560;
+  font-size: 1.1rem;
+  padding-bottom: 0.7rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+.eleven .inner .one button:hover {
+  background-color: #2ed06e;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+.eleven .inner .one ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: unset;
+}
+.eleven .inner .one ul li {
+  list-style: none;
+  margin-right: 1rem;
+  padding-top: 1rem;
+}
+.eleven .inner .one ul a {
+  color: white;
+}
+.eleven .inner .one ul a:hover {
+  color: #2ed06e;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.eleven .inner .fotwo {
+  margin-left: 4rem;
+}
+.eleven .inner .two {
+  width: 20%;
+  margin-top: 0.4rem;
+}
+.eleven .inner .two h4 {
+  font-family: "League Spartan", sans-serif;
+  margin-bottom: 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.eleven .inner .two p {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3rem;
+  border-top: 1px solid gray;
+  padding-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+}
+.footer p {
+  text-align: left;
+}
+.footer h5 {
+  text-align: right;
+}
+
+@media only screen and (max-width: 960px) {
+  header nav .inner ul {
+    display: none;
+    position: absolute;
+    top: 4rem;
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+  }
+  header nav .inner ul a {
+    color: black;
+    padding: 1rem 1rem;
+  }
+  header nav .inner .menu {
+    display: block;
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  header {
+    min-height: 550px;
+  }
+  header nav .inner .btn {
+    display: none;
+  }
+  header .headings .left {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  header .headings .right {
+    display: none;
+  }
+  .second .inner .left {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .second .inner .right {
+    width: 80%;
+  }
+  .third .sixsamebox .six {
+    width: 50%;
+  }
+  .fourth .inner .pricing .similarbox {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .fifth .inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .fifth .inner .one {
+    padding: 2rem 1rem;
+  }
+  .sixth {
+    margin-top: 35rem;
+  }
+  .sixth .fourmain .fourcircle {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .eighth {
+    padding: 1rem 2rem;
+  }
+  .eighth .thirdmain .third {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .eleven {
+    text-align: center;
+  }
+  .eleven .inner .one {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .eleven .inner .one ul {
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .eleven .inner .two {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .eleven .inner .space {
+    margin-top: 3rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .nine .six .long {
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .fifth {
+    padding: 1rem 1rem;
+  }
+  .eighth {
+    padding: 1rem 2rem;
+  }
+  .ten {
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .nine .inner .six .long {
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .ten .left {
+    text-align: center;
+    width: 100%;
+  }
+  .ten .right {
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .third .sixsamebox .six {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .footer p {
+    text-align: center;
+    width: 100%;
+  }
+  .footer h5 {
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .eleven .inner .one input {
+    width: 150px;
+  }
+}/*# sourceMappingURL=mobile.css.map */
